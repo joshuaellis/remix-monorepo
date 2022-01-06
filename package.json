@@ -1,0 +1,19 @@
+{
+  "name": "remix-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace app dev",
+    "postinstall": "remix setup node"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.1.1"
+  },
+  "packageManager": "yarn@3.1.1"
+}
