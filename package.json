@@ -10,6 +10,7 @@
   },
   "scripts": {
     "dev": "yarn workspace app dev",
+    "build": "yarn workspace app build",
     "postinstall": "remix setup node"
   },
   "devDependencies": {
